@@ -1,0 +1,62 @@
+[12:54:57] [main/INFO]: LiteLoader 1.7.10_04 starting up...
+[12:54:57] [main/INFO]: Java reports OS="linux"
+[12:54:57] [main/INFO]: Enumerating class path...
+[12:54:57] [main/INFO]: Class path separator=":"
+[12:54:57] [main/INFO]: Class path entries=(
+   classpathEntry=cauldron-server.jar
+)
+[12:54:57] [main/INFO]: Registering discovery module EnumeratorModuleClassPath: [<Java Class Path>]
+[12:54:57] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [/services/minecraft/mods]
+[12:54:57] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [/services/minecraft/mods/1.7.10]
+[12:54:57] [main/INFO]: Adding supported mod class prefix 'LiteMod'
+[12:54:57] [main/INFO]: Discovering tweaks on class path...
+[12:54:57] [main/INFO]: Discovering valid mod files in folder mods
+[12:54:57] [main/INFO]: Considering valid mod file: /services/minecraft/mods/voxelmenu-4.1.3.litemod
+[12:54:57] [main/INFO]: Considering valid mod file: /services/minecraft/mods/voxellib-2.3.1.litemod
+[12:54:57] [main/INFO]: Considering valid mod file: /services/minecraft/mods/asemodels-0.1.6.litemod
+[12:54:57] [main/INFO]: Considering valid mod file: /services/minecraft/mods/renderdecorator-1.1.1.litemod
+[12:54:57] [main/INFO]: Considering valid mod file: /services/minecraft/mods/voxelmenumusic-1.7.10.litemod
+[12:54:57] [main/INFO]: Considering valid mod file: /services/minecraft/mods/voxelmap-1.2.3.litemod
+[12:54:57] [main/INFO]: Considering valid mod file: /services/minecraft/mods/worldeditcui-1.7.10.litemod
+[12:54:57] [main/INFO]: Considering valid mod file: /services/minecraft/mods/voxelplayer-0.12.0.litemod
+[12:54:57] [main/INFO]: Adding newest valid mod file '/services/minecraft/mods/voxelplayer-0.12.0.litemod' at revision 1117.0000
+[12:54:57] [main/INFO]: Adding newest valid mod file '/services/minecraft/mods/worldeditcui-1.7.10.litemod' at revision 1727.0000
+[12:54:57] [main/INFO]: Adding newest valid mod file '/services/minecraft/mods/voxelmenu-4.1.3.litemod' at revision 352.0000
+[12:54:57] [main/INFO]: Adding newest valid mod file '/services/minecraft/mods/renderdecorator-1.1.1.litemod' at revision 25.0000
+[12:54:57] [main/INFO]: Adding newest valid mod file '/services/minecraft/mods/voxellib-2.3.1.litemod' at revision 234.0000
+[12:54:57] [main/INFO]: Adding newest valid mod file '/services/minecraft/mods/voxelmap-1.2.3.litemod' at revision 1203.0000
+[12:54:57] [main/INFO]: Adding newest valid mod file '/services/minecraft/mods/asemodels-0.1.6.litemod' at revision 45.0000
+[12:54:57] [main/INFO]: Adding newest valid mod file '/services/minecraft/mods/voxelmenumusic-1.7.10.litemod' at revision 346.0000
+[12:54:57] [main/INFO]: Discovering valid mod files in folder mods/1.7.10
+[12:54:57] [main/INFO]: Searching for tweaks in 'CodeChickenLib-1.7.10-1.1.1.110-universal.jar'
+[12:54:57] [main/WARN]: Enumerator Module com.mumfrey.liteloader.core.api.EnumeratorModuleFolder encountered an error whilst enumerating
+java.lang.IllegalAccessError: tried to access class com.google.common.primitives.AndroidInteger from class com.google.common.primitives.Ints
+	at com.google.common.primitives.Ints.tryParse(Ints.java:662) ~[minecraft_server.1.7.10.jar:?]
+	at com.mumfrey.liteloader.interfaces.LoadableFile.readMetaData(LoadableFile.java:114) ~[LoadableFile.class:1.7.10_04]
+	at com.mumfrey.liteloader.interfaces.LoadableFile.<init>(LoadableFile.java:70) ~[LoadableFile.class:1.7.10_04]
+	at com.mumfrey.liteloader.core.api.EnumeratorModuleFolder.findValidFiles(EnumeratorModuleFolder.java:182) ~[EnumeratorModuleFolder.class:1.7.10_04]
+	at com.mumfrey.liteloader.core.api.EnumeratorModuleFolder.enumerate(EnumeratorModuleFolder.java:138) ~[EnumeratorModuleFolder.class:1.7.10_04]
+	at com.mumfrey.liteloader.core.LiteLoaderEnumerator.discoverContainers(LiteLoaderEnumerator.java:380) [LiteLoaderEnumerator.class:1.7.10_04]
+	at com.mumfrey.liteloader.core.LiteLoaderEnumerator.onPreInit(LiteLoaderEnumerator.java:365) [LiteLoaderEnumerator.class:1.7.10_04]
+	at com.mumfrey.liteloader.core.LiteLoaderBootstrap.preInit(LiteLoaderBootstrap.java:297) [LiteLoaderBootstrap.class:1.7.10_04]
+	at com.mumfrey.liteloader.launch.LiteLoaderTweaker.onPreInit(LiteLoaderTweaker.java:314) [liteloader-1.7.10.jar:1.7.10_04]
+	at com.mumfrey.liteloader.launch.LiteLoaderTweaker.acceptOptions(LiteLoaderTweaker.java:220) [liteloader-1.7.10.jar:1.7.10_04]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:114) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_76]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_76]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_76]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_76]
+	at cpw.mods.fml.relauncher.ServerLaunchWrapper.run(ServerLaunchWrapper.java:43) [cauldron-server.jar:git-Cauldron-MCPC-Plus-1.7.10-1.1272.06.215]
+	at cpw.mods.fml.relauncher.ServerLaunchWrapper.main(ServerLaunchWrapper.java:12) [cauldron-server.jar:git-Cauldron-MCPC-Plus-1.7.10-1.1272.06.215]
+[12:54:57] [main/INFO]: Mod file 'voxelmenu-4.1.3.litemod' provides classTransformer 'com.thevoxelbox.voxelmenu.PanoramaTransformer', adding to class loader
+[12:54:57] [main/INFO]: classTransformer 'com.thevoxelbox.voxelmenu.PanoramaTransformer' was successfully added
+[12:54:57] [main/INFO]: Mod file 'voxelmenu-4.1.3.litemod' provides classTransformer 'com.thevoxelbox.voxelmenu.SlotTransformer', adding to class loader
+[12:54:57] [main/INFO]: classTransformer 'com.thevoxelbox.voxelmenu.SlotTransformer' was successfully added
+[12:54:57] [main/INFO]: Mod file 'renderdecorator-1.1.1.litemod' provides classTransformer 'com.mumfrey.renderdecorator.asm.RenderPlayerTransformer', adding to class loader
+[12:54:57] [main/INFO]: classTransformer 'com.mumfrey.renderdecorator.asm.RenderPlayerTransformer' was successfully added
+[12:54:57] [main/INFO]: Mod file 'voxellib-2.3.1.litemod' provides classTransformer 'com.thevoxelbox.common.TimeUpdateTransformer', adding to class loader
+[12:54:57] [main/INFO]: classTransformer 'com.thevoxelbox.common.TimeUpdateTransformer' was successfully added
+[12:54:57] [main/INFO]: Mod file 'voxelmap-1.2.3.litemod' provides classTransformer 'com.thevoxelbox.voxelmap.litemod.VoxelMapTransformer', adding to class loader
+[12:54:57] [main/INFO]: classTransformer 'com.thevoxelbox.voxelmap.litemod.VoxelMapTransformer' was successfully added
+[12:54:57] [main/INFO]: LiteLoader PREINIT complete

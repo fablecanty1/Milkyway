@@ -1,0 +1,27 @@
+[§41.6.4§r] Changed the starter kit to include 8 Glass fibre cables, istead of 16 universal
+[§41.6.4§r] Spawn Cooldowns and Warmups are now 15min/10sec, 10min/5sec, 5min/0sec respectively for Tauri, Tollan, Ancient
+[§41.6.3§r] Mods/Plugins: Updated 4Space for Galacticraft to v4.1.3
+[§41.6.2§r] Mods/Plugins: Added 4Space for Galacticraft v0.8.2
+[§41.6.1§r] Mods/Plugins: Added Starminer v0.9.8
+[§41.6.0§r] Client: Client now forces users to allocate 1,500MB of memory or higher before launching mod-pack
+[§41.6.0§r] Client: Client now forces users to install Java 7 or higher before launching mod-pack
+[§41.6.0§r] Mods/Plugins: Updated Applied Energistics 2 to rev. 2 build 28
+[§41.5.9§r] Mods/Plugins: Updated Mekanism to v8.1.0.216
+[§41.5.8§r] Mods/Plugins: Updated BuildCraft to v6.4.8
+[§41.5.7§r] Items: Banned Mekanism Teleporters & Converted Item Bans list to ItemRestrict format
+[§41.5.7§r] Mods/Plugins: Added ItemRestrict v1.4.0
+[§41.5.6§r] Mods/Plugins: Updated Worldedit to v6.0
+[§41.5.6§r] Mods/Plugins: Updated WorldGuard to v6.0 Beta 5
+[§41.5.6§r] Mods/Plugins: Updated UltimateArena to v3.0.704 - This fixes display of max Players for an arena
+[§41.5.5§r] Misc: Renamed Galacticraft worlds to fit within the Stargate theme.
+[§41.5.5§r] Mod/Plugins: Updated IC2 to v2.2.708
+[§41.5.5§r] Mod/Plugins: Updated Galacticraft to v3.0.11.310 - This fixes issues with CustomNPCs inventory tabs
+[§41.5.5§r] Mod/Plugins: Updated Mekanism to v8.1.0.214 to include a myriad of fixes to the v8.0 release
+[§41.5.5§r] Mod/Plugins: Updated BuildCraft to v6.4.7 - Fixes issues with fluids leaing from liquid pipes
+[§41.5.4§r] Mod/Plugins: Downgraded Applied Energistics 2 to v2.18 to resolve various client crashes
+[§41.5.3§r] Mod/Plugins: Updated OpenComputers to v1.5.5.12
+[§41.5.2§r] Mod/Plugins: Updated Applied Energistics 2 to v2.22
+[§41.5.2§r] Fixed: Recipes missing from Applied Energistics 2
+[§41.5.2§r] Mod/Plugins: Updated Galacticraft to v3.0.11.306
+[§41.5.2§r] Mod/Plugins: Updated UltimateArena to 3.0 Build 703
+
