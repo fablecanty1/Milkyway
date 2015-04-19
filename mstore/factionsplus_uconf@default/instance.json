@@ -77,10 +77,10 @@
     "MEMBER": false,
     "RECRUIT": false
   },
-  "bansEnabled": false,
+  "bansEnabled": true,
   "whoCanBan": {
     "LEADER": true,
-    "OFFICER": true,
+    "OFFICER": false,
     "MEMBER": false,
     "RECRUIT": false
   },
@@ -92,25 +92,25 @@
     "RECRUIT": false
   },
   "maxRulesPerFaction": 12,
-  "showRulesOnJoin": false,
-  "enablePeacefulBoost": false,
-  "peacefulPowerBoost": 1.0,
+  "showRulesOnJoin": true,
+  "enablePeacefulBoost": true,
+  "peacefulPowerBoost": 1000,
   "whoCanTogglePeacefulState": {
-    "LEADER": false,
+    "LEADER": true,
     "OFFICER": false,
     "MEMBER": false,
     "RECRUIT": false
   },
-  "peacefulToggleDelayInSeconds": 0,
+  "peacefulToggleDelayInSeconds": 1800,
   "extraPowerBoosts": {
-    "whenKillEnemyPlayer": 0.0,
-    "whenKillAllyPlayer": 0.0,
-    "whenKillTrucePlayer": 0.0,
+    "whenKillEnemyPlayer": 5.0,
+    "whenKillAllyPlayer": -25.0,
+    "whenKillTrucePlayer": -10.0,
     "whenKillNeutralPlayer": 0.0,
     "whenKillAnotherMonster": 0.0
   },
   "extraPowerLoss": {
-    "whenDeathBySuicide": 0.0,
+    "whenDeathBySuicide": 10.0,
     "whenDeathByPVP": 0.0,
     "whenDeathByMob": 0.0,
     "whenDeathByCactus": 0.0,
@@ -191,7 +191,7 @@
   "removeLWCProtectionOn": true,
   "disallowPublicAccessToLWCProtectionsInLands": true,
   "allowFactionKill": {
-    "allyMobs": true,
+    "allyMobs": false,
     "neturalMobs": true,
     "enemyMobs": true,
     "truceMobs": true
@@ -200,7 +200,7 @@
     "PIG": true,
     "HORSE": true
   },
-  "protectPassiveMobsSafeZone": false,
+  "protectPassiveMobsSafeZone": true,
   "makeSafeZoneExtraSafe": true,
   "strictFarming": false,
   "allowShopsInWilderness": true,
@@ -218,7 +218,7 @@
     "disallowChangingRelationshipToWilderness": true,
     "disallowChangingRelationshipToSafezone": true,
     "disallowChangingRelationshipToWarzone": true,
-    "crossBorderLiquidFlowBlock": false,
+    "crossBorderLiquidFlowBlock": true,
     "crossBorderLiquidFlowBlockMakeCobblestone": true
   },
   "factionCommandHideDescriptionInfo": [

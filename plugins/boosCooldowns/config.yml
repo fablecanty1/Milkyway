@@ -52,27 +52,18 @@ options:
     cannot_use_sign: '&6You are not allowed to use this sign!&f'
 commands:
   groups:
-    Tauri:
+    default:
       /f home:
         cooldown: 900
         warmup: 10
       /spawn:
         cooldown: 900
         warmup: 10
-    Tollan:
-      /f home:
-        cooldown: 600
-        warmup: 5
-      /spawn:
-        cooldown: 600
-        warmup: 5
-    Ancient:
-      /f home:
-        cooldown: 300
-        warmup: 0
-      /spawn:
-        cooldown: 300
-        warmup: 0
-  aliases:
-    /home: /f home
-    /sethome: /f sethome
+      /home:
+        cooldown: 900
+        warmup: 10
+      /sethome:
+        cooldown: 86400
+        warmup: 10
+      /f sethome:
+        cooldown: 86400

@@ -46,25 +46,76 @@ world-settings:
     mrtjp-projectred-exploration-TileLily:
       tick-no-players: false
       tick-interval: 1
-    TileMultipartcmp22:
+    cofh-thermalexpansion-block-ender-TileTesseract:
+      tick-no-players: false
+      tick-interval: 1
+    buildcraft-factory-TilePump:
       tick-no-players: false
       tick-interval: 1
     TileMultipartcmp20:
       tick-no-players: false
       tick-interval: 1
-    mekanism-common-tile-TileEntityEnergyCube:
+    noppes-npcs-blocks-tiles-TileRedstoneBlock:
+      tick-no-players: false
+      tick-interval: 1
+    mods-railcraft-common-blocks-machine-beta-TileTankSteelWall:
+      tick-no-players: false
+      tick-interval: 1
+    li-cil-oc-common-tileentity-Case:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityChest:
+      tick-no-players: false
+      tick-interval: 1
+    li-cil-oc-common-tileentity-Screen:
+      tick-no-players: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-core-tile-TileEntityArclamp:
+      tick-no-players: false
+      tick-interval: 1
+    mods-railcraft-common-blocks-machine-alpha-TileAnchorAdmin:
+      tick-no-players: false
+      tick-interval: 1
+    TileMultipartcmp18:
+      tick-no-players: false
+      tick-interval: 1
+    gcewing-sg-SGBaseTE:
+      tick-no-players: false
+      tick-interval: 1
+    gcewing-sg-ic2-IC2PowerTE:
+      tick-no-players: false
+      tick-interval: 1
+    advsolar-common-tiles-TileEntityQGenerator:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityBrewingStand:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityMobSpawner:
+      tick-no-players: false
+      tick-interval: 1
+    advsolar-common-tiles-TileEntityUltimateSolarPanel:
+      tick-no-players: false
+      tick-interval: 1
+    dan200-computercraft-shared-computer-blocks-TileComputer:
+      tick-no-players: false
+      tick-interval: 1
+    dan200-computercraft-shared-peripheral-modem-TileCable:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityFurnace:
+      tick-no-players: false
+      tick-interval: 1
+    TileMultipartcmp22:
+      tick-no-players: false
+      tick-interval: 1
+    mekanism-common-tile-TileEntityEnergyCube:
       tick-no-players: false
       tick-interval: 1
     TileMultipartcmp24:
       tick-no-players: false
       tick-interval: 1
     cofh-thermalexpansion-block-machine-TileCrucible:
-      tick-no-players: false
-      tick-interval: 1
-    advsolar-common-tiles-TileEntityUltimateSolarPanel:
       tick-no-players: false
       tick-interval: 1
     advsolar-common-tiles-TileEntityQuantumSolarPanel:
@@ -101,9 +152,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     advsolar-common-tiles-TileEntityMolecularTransformer:
-      tick-no-players: false
-      tick-interval: 1
-    cofh-thermalexpansion-block-ender-TileTesseract:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityHopper:
@@ -175,16 +223,7 @@ world-settings:
     tconstruct-smeltery-logic-LavaTankLogic:
       tick-no-players: false
       tick-interval: 1
-    dan200-computercraft-shared-computer-blocks-TileComputer:
-      tick-no-players: false
-      tick-interval: 1
-    li-cil-oc-common-tileentity-Screen:
-      tick-no-players: false
-      tick-interval: 1
     tconstruct-smeltery-logic-SmelteryLogic:
-      tick-no-players: false
-      tick-interval: 1
-    li-cil-oc-common-tileentity-Case:
       tick-no-players: false
       tick-interval: 1
     li-cil-oc-common-tileentity-Charger:
@@ -205,12 +244,6 @@ world-settings:
     ic2-core-block-machine-tileentity-TileEntityTesla:
       tick-no-players: false
       tick-interval: 1
-    dan200-computercraft-shared-peripheral-modem-TileCable:
-      tick-no-players: false
-      tick-interval: 1
-    gcewing-sg-SGBaseTE:
-      tick-no-players: false
-      tick-interval: 1
     li-cil-oc-common-tileentity-AccessPoint:
       tick-no-players: false
       tick-interval: 1
@@ -220,37 +253,7 @@ world-settings:
     gcewing-sg-oc-OCInterfaceTE:
       tick-no-players: false
       tick-interval: 1
-    gcewing-sg-ic2-IC2PowerTE:
-      tick-no-players: false
-      tick-interval: 1
     tconstruct-smeltery-logic-FaucetLogic:
-      tick-no-players: false
-      tick-interval: 1
-    buildcraft-factory-TilePump:
-      tick-no-players: false
-      tick-interval: 1
-    noppes-npcs-blocks-tiles-TileRedstoneBlock:
-      tick-no-players: false
-      tick-interval: 1
-    mods-railcraft-common-blocks-machine-beta-TileTankSteelWall:
-      tick-no-players: false
-      tick-interval: 1
-    micdoodle8-mods-galacticraft-core-tile-TileEntityArclamp:
-      tick-no-players: false
-      tick-interval: 1
-    mods-railcraft-common-blocks-machine-alpha-TileAnchorAdmin:
-      tick-no-players: false
-      tick-interval: 1
-    TileMultipartcmp18:
-      tick-no-players: false
-      tick-interval: 1
-    advsolar-common-tiles-TileEntityQGenerator:
-      tick-no-players: false
-      tick-interval: 1
-    net-minecraft-tileentity-TileEntityBrewingStand:
-      tick-no-players: false
-      tick-interval: 1
-    net-minecraft-tileentity-TileEntityMobSpawner:
       tick-no-players: false
       tick-interval: 1
     mekanism-common-tile-TileEntityDynamicTank:
@@ -290,9 +293,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     TileMultipartcmp33:
-      tick-no-players: false
-      tick-interval: 1
-    net-minecraft-tileentity-TileEntityFurnace:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityEnchantmentTable:

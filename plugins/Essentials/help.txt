@@ -97,5 +97,5 @@
 &c/report <reason> <description>&f - Logs a support ticket with the StargateMC admins/mods for them to review.
 #changenotes
 §5Change notes for the current version of StargateMC:
-{CHANGE_NOTES}
+
 

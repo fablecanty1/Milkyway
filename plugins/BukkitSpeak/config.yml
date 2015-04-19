@@ -5,8 +5,8 @@ main:
   QueryUsername: stargatemc
   QueryPassword: 'cqR7jWyb'
 teamspeak:
-  TeamspeakNickname: MilkyWay
-  ConsoleName: '&eMilkyWay'
+  TeamspeakNickname: Milkyway
+  ConsoleName: '&eMilkyway'
 
   # Only required if you use the channel functions!
   ChannelID: 1

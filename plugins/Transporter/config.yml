@@ -1,18 +1,24 @@
 pins: {}
-realm: {enabled: true, name: Universe}
+realm: {enabled: true, name: Universe, defaultServer: Midway, defaultWorld: MidwayStation}
 servers:
 - {sendChatFilter: null, enabled: true, publicAddress: '*', receiveChat: false, allowRemoteCommands: false,
-    sendChat: false, mExecTarget: true, pluginAddress: 'localhost:25601', announcePlayers: false,
-    receiveChatFilter: null, name: Midway, pmFormat: null, playerListFormat: '%italic%%player%',
-    chatFormat: null, privateAddress: '*', sendChatFormatFilter: null, key: midway}
-global: null
+    sendChat: false, mExecTarget: true, pluginAddress: 'localhost:25602', announcePlayers: false,
+    receiveChatFilter: null, name: Pegasus, pmFormat: null, playerListFormat: '%italic%%player%',
+    chatFormat: null, privateAddress: '*', sendChatFormatFilter: null, key: pegasus}
+- {sendChatFilter: null, enabled: true, publicAddress: '*', receiveChat: false, allowRemoteCommands: false,
+    sendChat: false, mExecTarget: true, pluginAddress: 'localhost:25603', announcePlayers: false,
+    receiveChatFilter: null, name: Destiny, pmFormat: null, playerListFormat: '%italic%%player%',
+    chatFormat: null, privateAddress: '*', sendChatFormatFilter: null, key: destiny}
+- {sendChatFilter: null, enabled: true, publicAddress: '*', receiveChat: false, allowRemoteCommands: false,
+    sendChat: false, mExecTarget: true, pluginAddress: 'localhost:25604', announcePlayers: false,
+    receiveChatFilter: null, name: MilkyWay, pmFormat: null, playerListFormat: '%italic%%player%',
+    chatFormat: null, privateAddress: '*', sendChatFormatFilter: null, key: milkyway}
 worlds:
 - {environment: NORMAL, seed: '5490165461408509146', name: MidwayStation, generator: null,
     autoLoad: true}
-configVersion: 2
 network:
+    bungeeServer: Midway
     clusterName: stargatemc
-    bungeeServer: MilkyWay
-    listenAddress: '*:25604'
+    listenAddress: '*:25601'
     bannedAddresses: []
-    key: milkyway
+    key: midway

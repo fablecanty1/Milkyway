@@ -5,6 +5,44 @@
 # For example configurations, visit http://dev.bukkit.org/server-mods/jobs/.
 
 Jobs:
+  GateBuilder:
+    fullname: GateBuilder
+    shortname: GB
+    description: Earns money for the creating stargates and related items.
+    ChatColour: DARK_BLUE
+    chat-display: short
+    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
+    income-progression-equation: baseincome*((1.05)^(joblevel-1))
+    experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
+    max-level: 60
+    Craft:
+      '1222':
+        income: 900.0
+        experience: 60.0
+      1222-1:
+        income: 950.0
+        experience: 60.0
+      '1223':
+        income: 1200.0
+        experience: 90.0
+      '1224':
+        income: 1100.0
+        experience: 80.0
+      '5874':
+        income: 800.0
+        experience: 70.0
+      '5875':
+        income: 1000.0
+        experience: 100.0
+      '5876':
+        income: 100.0
+        experience: 10.0
+      '5873':
+        income: 600.0
+        experience: 40.0
+      '5872':
+        income: 600.0
+        experience: 40.0
   Technician:
     fullname: Technician
     shortname: Tech
