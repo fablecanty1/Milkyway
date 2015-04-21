@@ -730,7 +730,7 @@ newbies:
   # If so, use this format, replacing {DISPLAYNAME} with the player name.
   # If not, set to ''
   #announce-format: ''
-  announce-format: '&d{DISPLAYNAME}&d has joined the the StargateMC Universe, be sure to welcome them!'
+  announce-format: '&d{DISPLAYNAME}&d has journeyed  to the Milky Way for the first time, be sure to welcome them!'
 
   # When we spawn for the first time, which spawnpoint do we use?
   # Set to "none" if you want to use the spawn point of the world.
