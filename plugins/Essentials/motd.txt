@@ -1,6 +1,6 @@
 §0§2§0§0§e§f
 §0§2§1§0§e§f
-&6Welcome to StargateMC (&Milkyway&6) v1.7.10, {PLAYER}&6!
+&6Welcome to StargateMC (&7Milkyway&6) v1.7.10, {PLAYER}&6!
 &6Type &c/help&6 for a list of commands.
 &6Type &c/list&6 to see who else is online.
 &6Type &c/help changenotes&6 to see the changes for this release!
