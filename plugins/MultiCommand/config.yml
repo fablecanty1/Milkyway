@@ -35,6 +35,10 @@ Commands:
   - /mw create $1-normal normal
   - '[1]/mw load $1-normal'
   - '[1]/wb $1-normal set 1000 1000 spawn'
+  - '[1]/dynmap pause all'
+  - "[1]/dmap worldset $1-normal title:'$1s Homeworld'"
+  - "[1]/dmap worldset $1-normal enabled:true"
+  - "[1]/dynmap pause none"
   GOTO_NORMAL_WORLD:
   - /mw load $1-normal
   - '[2]/mw move $1 $1-normal'
