@@ -5,6 +5,140 @@
 # For example configurations, visit http://dev.bukkit.org/server-mods/jobs/.
 
 Jobs:
+  ComputerTech:
+    fullname: Computer Tech
+    shortname: CT
+    description: Earns money for the creating stargates and related items.
+    ChatColour: YELLOW
+    chat-display: short
+    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
+    income-progression-equation: baseincome*((1.05)^(joblevel-1))
+    experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
+    max-level: 60
+    Craft:
+     '711':
+        income: 900.0
+        experience: 60.0
+     '711-16384':
+        income: 900.0
+        experience: 60.0
+      '712':
+        income: 900.0
+        experience: 60.0
+      '712-1':
+        income: 900.0
+        experience: 60.0
+      '712-2':
+        income: 900.0
+        experience: 60.0
+      '712-3':
+        income: 900.0
+        experience: 60.0
+      '712-4':
+        income: 900.0
+        experience: 60.0
+      '713':
+        income: 900.0
+        experience: 60.0
+      '713-1':
+        income: 900.0
+        experience: 60.0
+      '714':
+        income: 900.0
+        experience: 60.0
+      '715':
+        income: 900.0
+        experience: 60.0
+      '715-1':
+        income: 900.0
+        experience: 60.0
+      '716':
+        income: 900.0
+        experience: 60.0
+      '717':
+        income: 900.0
+        experience: 60.0
+      '4539':
+        income: 900.0
+        experience: 60.0
+      '4540':
+        income: 900.0
+        experience: 60.0
+      '4542':
+        income: 900.0
+        experience: 60.0
+      '4542-1':
+        income: 900.0
+        experience: 60.0
+      '4542-2':
+        income: 900.0
+        experience: 60.0
+      '4543':
+        income: 900.0
+        experience: 60.0
+      '4543-1':
+        income: 900.0
+        experience: 60.0
+      '1193':
+        income: 900.0
+        experience: 60.0
+      '1194':
+        income: 900.0
+        experience: 60.0
+      '1195':
+        income: 900.0
+        experience: 60.0
+      '1196':
+        income: 900.0
+        experience: 60.0
+      '1197':
+        income: 900.0
+        experience: 60.0
+      '1198':
+        income: 900.0
+        experience: 60.0
+      '1199':
+        income: 900.0
+        experience: 60.0
+      '1200':
+        income: 900.0
+        experience: 60.0
+      '1201':
+        income: 900.0
+        experience: 60.0
+      '1202':
+        income: 900.0
+        experience: 60.0
+      '1203':
+        income: 900.0
+        experience: 60.0
+      '1204':
+        income: 900.0
+        experience: 60.0
+      '1205':
+        income: 900.0
+        experience: 60.0
+      '1206':
+        income: 900.0
+        experience: 60.0
+      '1207':
+        income: 900.0
+        experience: 60.0
+      '1208':
+        income: 900.0
+        experience: 60.0
+      '1209':
+        income: 900.0
+        experience: 60.0
+      '1210':
+        income: 900.0
+        experience: 60.0
+      '1211':
+        income: 900.0
+        experience: 60.0
+      '1212':
+        income: 900.0
+        experience: 60.0
   GateBuilder:
     fullname: GateBuilder
     shortname: GB
